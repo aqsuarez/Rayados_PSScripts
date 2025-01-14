@@ -8,7 +8,7 @@ Write-Host "1: Zero-Touch Win11 23H2 | English    | Enterprise"-ForegroundColor 
 Write-Host "2: Zero-Touch Win11 23H2 | Spanish    | Enterprise" -ForegroundColor Yellow
 Write-Host "3: Zero-Touch Win11 23H2 | French     | Enterprise" -ForegroundColor Yellow
 Write-Host "4: Zero-Touch Win11 23H2 | Portuguese | Enterprise" -ForegroundColor Yellow
-Write-Host "5: Azure OSDCloud        | Portuguese | Enterprise" -ForegroundColor Yellow
+Write-Host "5: Azure OSDCloud        | Enterprise" -ForegroundColor Yellow
 Write-Host "6: I'll select it myself"-ForegroundColor Yellow
 Write-Host "7: Exit`n"-ForegroundColor Yellow
 $input = Read-Host "Please make a selection"
