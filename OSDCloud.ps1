@@ -24,7 +24,7 @@ switch ($input)
     '2' { Start-OSDCloud -OSLanguage es-Mx -OSBuild 23H2 -OSEdition Enterprise -ZTI } 
     '3' { Start-OSDCloud -OSLanguage fr-CA -OSBuild 23H2 -OSEdition Enterprise -ZTI } 
     '4' { Start-OSDCloud -OSLanguage pt-BR -OSBuild 23H2 -OSEdition Enterprise -ZTI } 
-    '5' { powershell.exe iex (irm az.osdcloud.com) } 
+    '5' { powershell.exe start-oscloudazure } 
     '6' { Start-OSDCloud	} 
     '7' { Exit		}
 }
