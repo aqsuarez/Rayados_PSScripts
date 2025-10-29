@@ -1,8 +1,8 @@
-﻿Write-Host  -ForegroundColor Yellow "Starting Rayados' Custom OSDCloud ..."
+﻿Write-Host  -ForegroundColor Yellow "Starting LP Intune' Custom OSDCloud ..."
 cls
 Write-Host "===================== Main Menu =======================" -ForegroundColor Yellow
-Write-Host "================== www.Rayados.pro ====================" -ForegroundColor Yellow
-Write-Host "=======================@asuarez =======================" -ForegroundColor Yellow
+Write-Host "=========== Louisiana-Pacific Corporation==============" -ForegroundColor Yellow
+Write-Host "======================Intune ==========================" -ForegroundColor Yellow
 Write-Host "=======================================================" -ForegroundColor Yellow
 Write-Host "1: Zero-Touch Win11 23H2 | English    | Enterprise"-ForegroundColor Yellow
 Write-Host "2: Zero-Touch Win11 23H2 | Spanish    | Enterprise" -ForegroundColor Yellow
