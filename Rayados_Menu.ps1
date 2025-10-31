@@ -24,9 +24,10 @@ switch ($input)
     '2' { Start-OSDCloud -OSLanguage es-Mx -OSBuild 23H2 -OSEdition Enterprise -ZTI } 
     '3' { Start-OSDCloud -OSLanguage fr-CA -OSBuild 23H2 -OSEdition Enterprise -ZTI } 
     '4' { Start-OSDCloud -OSLanguage pt-BR -OSBuild 23H2 -OSEdition Enterprise -ZTI } 
-    '5' { powershell.exe start-oscloudazure } 
+    '5' { powershell.exe Start-OSDCloudAzure } 
     '6' { Start-OSDCloud	} 
     '7' { Exit		}
 }
+
 
 wpeutil reboot
